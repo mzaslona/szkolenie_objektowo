@@ -17,5 +17,5 @@ public class Silnia2 {
 		}
 	return liczba1*silnia(liczba1 -1); 
 	}
-	//uuiuusds23
+	//zbêdne uwagi
 }
