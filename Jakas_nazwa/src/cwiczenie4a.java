@@ -15,6 +15,7 @@ public class cwiczenie4a {
 		if (liczba1 == 1){
 			return 1;
 		}
-	return liczba1*silnia(liczba1 -1);
+	return liczba1*silnia(liczba1 -1); 
 	}
+	//uuiuu
 }
