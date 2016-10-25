@@ -15,6 +15,15 @@ public class ZakresLiczb {
 		System.out.println(i);
 		System.out.println(c);
 		System.out.println(j);
+		
+		float f= 1.0000001F; 
+		float g=f;
+		g+=1;
+//		System.out.println(g);
+		g-=1;
+		System.out.println(f);
+		System.out.println(g);
+		
 	}
 
 }
