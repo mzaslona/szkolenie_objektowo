@@ -5,7 +5,7 @@ public class Osoba {
 	boolean pelnoletnia() {
 		return wiek>= 18;
 	}
-
+// c
 }
 
 

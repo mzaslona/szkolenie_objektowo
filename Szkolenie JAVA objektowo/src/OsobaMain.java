@@ -16,5 +16,5 @@ public class OsobaMain {
 		System.out.println(corka.pelnoletnia());
 
 	}
-
+// c
 }
