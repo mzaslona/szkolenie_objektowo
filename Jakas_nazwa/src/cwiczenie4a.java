@@ -17,5 +17,5 @@ public class cwiczenie4a {
 		}
 	return liczba1*silnia(liczba1 -1); 
 	}
-	//uuiuu
+	//uuiuusds
 }
