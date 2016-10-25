@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class cwiczenie4 {
+public class Silnia {
 
 	public static void main(String[] args) {
 		System.out.println("Podaj liczbê");
