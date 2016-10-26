@@ -40,18 +40,17 @@ public class OsobaMain {
 		dzieci.add(corka);
 		dzieci.add(syn);
 		
-		Rodzina rodzina = new Rodzina();
-		rodzina.tata = tato;
-		rodzina.mama = mama;
-		// rodzina.dziecko = corka;
-		rodzina.dzieci = dzieci;
-		
-		
-		
-		int lacznaWagaRodziny = rodzina.lacznaWaga();
-			
-		System.out.println(rodzina.lacznaWaga());
+		Rodzina kowalscy = new Rodzina(mama, tato, dzieci);
 
+		Rodzina kowalscyBezDzieci = new Rodzina(mama, tato);
+		Rodzina kowalscyBezDzieciIMamy = new Rodzina(tato);
+		
+//		int lacznaWagaRodziny = kowalscy.lacznaWaga();
+//		int lacznaWagaRodziny = kowalscyBezDzieci.lacznaWaga();
+			
+		System.out.println("kowalscy "+kowalscy.lacznaWaga());
+		System.out.println("kowalscyBezDzieci "+kowalscyBezDzieci.lacznaWaga());
+		System.out.println("kowalscyBezDzieciIMamy "+kowalscyBezDzieciIMamy.lacznaWaga());
 	}
 // c
 }
