@@ -2,7 +2,7 @@
 public abstract class Osoba {
 	String imie, nazwisko;
 	int wiek;
-	int wzrost;
+	protected int wzrost;
 	private int waga;
 	Plec plec;
 
@@ -19,9 +19,7 @@ public abstract class Osoba {
 		return wiek >= 18;
 	}
 
-	boolean gigant() {
-		return wzrost > 180;
-	}
+	public abstract boolean gigant();
 
 	int pobierzWagê() {
 		return waga;
