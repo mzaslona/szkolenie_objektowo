@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 
 public class OsobaMain {
 
@@ -21,17 +22,31 @@ public class OsobaMain {
 		corka.nazwisko = "Kowalska";
 		corka.wiek = 10;
 		corka.wzrost = 200;
-		corka.waga = 30;
+		corka.waga = 330;
+		
+		Osoba syn = new Osoba();
+		syn.imie = "Kuba";
+		syn.nazwisko = "Kowalski";
+		syn.wiek = 10;
+		syn.wzrost = 200;
+		syn.waga = 130;
 		
 		System.out.println(tato.pelnoletnia());
 		System.out.println(corka.pelnoletnia());
 		System.out.println(tato.gigant());
 		System.out.println(corka.gigant());
 		
+		ArrayList<Osoba> dzieci = new ArrayList<>();
+		dzieci.add(corka);
+		dzieci.add(syn);
+		
 		Rodzina rodzina = new Rodzina();
 		rodzina.tata = tato;
 		rodzina.mama = mama;
-		rodzina.dziecko = corka;
+		// rodzina.dziecko = corka;
+		rodzina.dzieci = dzieci;
+		
+		
 		
 		int lacznaWagaRodziny = rodzina.lacznaWaga();
 			
